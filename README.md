@@ -1,11 +1,11 @@
 # Run
 
 To reproduce the LSTM experiment, run
-```
+```bash
 python3 -m benchmarks --name lstm_crowd_embeddings \
          --dataset=imdb \
          --train_path=data/imdb/train_crowd_alpha047.csv  --val_path=data/imdb/val_clean_alpha047.csv --test_path=data/imdb/test.csv \
-         --log_dir=$HOME/ce_code/logs --checkpoint_root=$HOME/ce_code/checkpoints   \
+         --log_dir=$HOME/crowd-embeddings/logs --checkpoint_root=$HOME/crowd-embeddings/checkpoints   \
          --backbone=lstm --approach=crowd_embedding   \
          --num_workers=8 \
          --max_epochs=25 --batch_size=32 \
