@@ -1,7 +1,7 @@
 # Run
 
 To reproduce the LSTM experiment, run
-```
+```bash
 python3 -m benchmarks --name lstm_crowd_embeddings \
          --dataset=imdb \
          --train_path=data/imdb/train_crowd_alpha047.csv  --val_path=data/imdb/val_clean_alpha047.csv --test_path=data/imdb/test.csv \
