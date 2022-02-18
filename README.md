@@ -16,3 +16,7 @@ python3 -m benchmarks --name lstm_crowd_embeddings \
          --gpus=1 \
          2>&1 | tee train.log
 ```
+
+# Data
+
+We have noticed that this service does not support Git LFS storage, so some data files are not available. To access these files, you can use [this link](https://drive.google.com/drive/folders/160C26s_outm4HzzNYSKgWEQtJDoRZ6CO?usp=sharing) which leads to a Google Drive folder created from an anonymous Google account.
